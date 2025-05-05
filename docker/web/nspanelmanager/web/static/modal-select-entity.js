@@ -29,7 +29,7 @@ function add_new_entity_to_list(entity, type) {
       icon +
       ' add_item_icon me-2"></span>' +
       entity.label +
-      "</div>"
+      "<small class=\"text-gray-500\"> (" + entity.entity_id + ")</small></div>"
   );
 }
 
